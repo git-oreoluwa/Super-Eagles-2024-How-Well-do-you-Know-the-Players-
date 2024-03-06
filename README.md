@@ -18,7 +18,7 @@ To understand my data and get my desired insights from my analysis, I needed to 
 <p>First, I utilized Python libraries BeautifulSoup and requests to scrape player details from the web. Then, I identified the table containing player information by extracting headers ("th") and individual row data ("td"). Subsequently, I gathered the players' jersey numbers, names, positions, dates of birth/ages, clubs, heights, preferred foot, international matches, goals, debut information, and market values from the designated website. </p>
 <p>However, the data obtained initially was disorganized, as depicted in the image below.<p/>
 <img src="https://github.com/git-oreoluwa/Google_Data_Analytics_Capstone_Cyclistic_Case_Study/assets/110780775/7845b4be-89e4-4394-ba98-a5255066e9c0"/>
-  
+
 ## Data Cleaning and Preparation
 It's well known that a significant portion of time in any analytical process is dedicated to data cleaning, and my experience was no exception.
 After thoroughly examining my dataset for missing data, irrelevant features, and duplicate values, I identified duplicate rows and promptly removed them. Additionally, I discovered that the club titles were not visible in the dataset and had to be extracted from the "title" attribute of the <a> tag. I replaced the item at index 4 with the extracted club title before appending the row to the correct header columns in the dataframe, "df".
@@ -46,3 +46,5 @@ This comprehensive approach to exploratory data analysis helped unveil insights 
 
 ## Data Visualization
 For visualisation, I exported my final csv file to <a href = "https://public.tableau.com/app/profile/oreoluwa.folorunsho./viz/Super-Eagles-2024-How-Well-do-you-Know-the-Players-/Dashboard1#1">Tableau</a> and I created a dashboard to better display my findings and communicate the analysis.
+
+<p>You can check out my blog on <a href = "https://medium.com/@faithoreoluwaf/uncovering-the-super-eagles-2024-what-surprises-await-in-their-player-profiles-24fcee08be19">Medium</a>, where I did a comprehensive data story telling and communicated my insights</p>
